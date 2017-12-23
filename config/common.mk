@@ -73,6 +73,15 @@ include vendor/du/config/packages.mk
 # Branding
 include vendor/du/config/branding.mk
 
+# Fonts Stuff - Copy to System fonts
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/fonts/gobold/Gobold.ttf:system/fonts/Gobold.ttf \
+    vendor/du/prebuilt/fonts/gobold/Gobold-Italic.ttf:system/fonts/Gobold-Italic.ttf \
+    vendor/du/prebuilt/fonts/gobold/GoboldBold.ttf:system/fonts/GoboldBold.ttf \
+    vendor/du/prebuilt/fonts/gobold/GoboldBold-Italic.ttf:system/fonts/GoboldBold-Italic.ttf \
+    vendor/du/prebuilt/fonts/gobold/GoboldThinLight.ttf:system/fonts/GoboldThinLight.ttf \
+    vendor/du/prebuilt/fonts/gobold/GoboldThinLight-Italic.ttf:system/fonts/GoboldThinLight-Italic.ttf
+
 # Bootanimation
 ifneq ($(filter taimen shamu angler dumpling hammerhead cheeseburger oneplus3 potter tenderloin dragon,$(TARGET_PRODUCT)),)
 include vendor/du/config/bootanimation.mk
