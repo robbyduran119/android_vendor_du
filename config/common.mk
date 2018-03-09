@@ -68,7 +68,12 @@ include vendor/du/config/packages.mk
 include vendor/du/config/branding.mk
 
 # Bootanimation
+ifneq ($(filter taimen shamu angler dumpling hammerhead cheeseburger oneplus3 potter tenderloin dragon,$(TARGET_PRODUCT)),)
 include vendor/du/config/bootanimation.mk
+else
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+endif
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
