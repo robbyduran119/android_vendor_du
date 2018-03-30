@@ -39,6 +39,13 @@ PRODUCT_PACKAGES += \
     SettingsDark \
     SystemDark
 
+# BlackAF Theme
+PRODUCT_PACKAGES += \
+    DuiBlackAF \
+    GBoardBlackAF \
+    SettingsBlackAF \
+    SystemBlackAF 
+
 # Fonts
 PRODUCT_PACKAGES += \
     DU-Fonts
