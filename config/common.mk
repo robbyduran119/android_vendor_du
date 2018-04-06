@@ -83,7 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/fonts/gobold/GoboldThinLight-Italic.ttf:system/fonts/GoboldThinLight-Italic.ttf \
     vendor/du/prebuilt/fonts/roadrage/road_rage.ttf:system/fonts/RoadRage-Regular.ttf \
     vendor/du/prebuilt/fonts/snowstorm/snowstorm.ttf:system/fonts/Snowstorm-Regular.ttf \
-    vendor/du/prebuilt/fonts/vcrosd/vcr_osd_mono.ttf:system/fonts/ThemeableFont-Regular.ttf
+    vendor/du/prebuilt/fonts/vcrosd/vcr_osd_mono.ttf:system/fonts/ThemeableFont-Regular.ttf \
+    vendor/du/prebuilt/fonts/googlesans/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf
 
 # Bootanimation
 ifneq ($(filter taimen shamu angler dumpling hammerhead cheeseburger oneplus3 potter tenderloin dragon,$(TARGET_PRODUCT)),)
