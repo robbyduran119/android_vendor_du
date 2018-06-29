@@ -18,18 +18,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="settings_overlay_dark">Paramètres</string>
-
     <string name="change_content">
         <![CDATA[
-        	<b><font color="#FFFFFF">Titre :</font></b><br />
+        	<b><font color="#FFFFFF">标题:</font></b><br />
         	<font color="#e8e8e8">%title</font><br /><br />
-        	<b><font color="#FFFFFF">Message du Commit :</font></b><br />
+        	<b><font color="#FFFFFF">提交信息:</font></b><br />
         	<font color="#e8e8e8">%message</font><br /><br />
-        	<b><font color="#FFFFFF">Propriétaire :</font></b> <font color="#e8e8e8">%owner</font><br />
-        	<b><font color="#FFFFFF">Fusionné :</font></b> <font color="#e8e8e8">%date</font><br />
-        	<b><font color="#FFFFFF">Branche :</font></b> <font color="#e8e8e8">%branch</font><br />
-        	<b><font color="#FFFFFF">Projet :</font></b> <font color="#e8e8e8">%project</font><br />
+        	<b><font color="#FFFFFF">所有者:</font></b> <font color="#e8e8e8">%owner</font><br />
+        	<b><font color="#FFFFFF">已合并:</font></b> <font color="#e8e8e8">%date</font><br />
+        	<b><font color="#FFFFFF">分支:</font></b> <font color="#e8e8e8">%branch</font><br />
+        	<b><font color="#FFFFFF">项目:</font></b> <font color="#e8e8e8">%project</font><br />
         ]]>
     </string>
 
