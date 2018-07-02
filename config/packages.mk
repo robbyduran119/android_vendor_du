@@ -1,6 +1,8 @@
 # Packages
 PRODUCT_PACKAGES += \
-    Turbo
+    DU-Fonts \
+    Turbo \
+    WallpaperPicker
 
 # Accents
 PRODUCT_PACKAGES += \
@@ -44,11 +46,7 @@ PRODUCT_PACKAGES += \
     DuiBlackAF \
     GBoardBlackAF \
     SettingsBlackAF \
-    SystemBlackAF 
-
-# Fonts
-PRODUCT_PACKAGES += \
-    DU-Fonts
+    SystemBlackAF
 
 # Extra tools
 PRODUCT_PACKAGES += \
