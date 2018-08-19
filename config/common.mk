@@ -110,7 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/fonts/fontage/FoxAndCat-Regular.ttf:system/fonts/ThemeableDate-fc.ttf \
     vendor/du/prebuilt/fonts/fontage/FoxAndCat-Regular.ttf:system/fonts/ThemeableOwner-fc.ttf \
     vendor/du/prebuilt/fonts/fontage/TheOutbox-Regular.ttf:system/fonts/TheOutbox-Regular.ttf \
-    vendor/du/prebuilt/fonts/fontage/Union-Regular.ttf:system/fonts/Union-Regular.ttf
+    vendor/du/prebuilt/fonts/fontage/Union-Regular.ttf:system/fonts/Union-Regular.ttf \
+    vendor/du/prebuilt/fonts/sammy/Sammy.ttf:system/fonts/Sammy.ttf
 
 # Bootanimation
 ifneq ($(filter taimen shamu angler dumpling hammerhead cheeseburger oneplus3 potter tenderloin dragon,$(TARGET_PRODUCT)),)
